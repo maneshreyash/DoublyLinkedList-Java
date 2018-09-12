@@ -1,13 +1,3 @@
-/* SP1
-SG1 16 - TEAM MEMBERS: TEJAS RAVI RAO (netId: txr171830)
-                       SHREYASH SANJAY MANE  (netId: ssm170730)
-SP1 - DoublyLinkedList extends SinglyLinkedList
-      methods hasPrevious(), Previous(), add(x) in DoublyLinkedList
-Date - 2/9/2018
-*/
-
-package txr171830;
-
 import java.util.*;
 
 public class DoublyLinkedList<T> extends SinglyLinkedList<T> {
