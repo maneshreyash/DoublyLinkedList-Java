@@ -1,5 +1,3 @@
-package txr171830;
-
 public interface DoublyLinkedListIterator<T>
 {
     boolean hasNext();
