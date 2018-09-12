@@ -1,31 +1,4 @@
-/* SP1
-SG1 16 - TEAM MEMBERS: TEJAS RAVI RAO (netId: txr171830)
-                       SHREYASH SANJAY MANE  (netId: ssm170730)
-SP1 - DoublyLinkedList extends SinglyLinkedList
-      methods hasPrevious(), Previous(), add(x) in DoublyLinkedList
-Date - 2/9/2018
-*/
 
-
-package txr171830;
-
-/** @author rbk
- *  Singly linked list: for instructional purposes only
- *  Ver 1.0: 2018/08/21
- *  Ver 2.0: 2018/08/28: modified to be able to extend to DoublyLinkedList
- *  Entry class has generic type associated with it, to allow inheritance.
- *  We can now have a doubly linked list class DLL that has
-
-public class DoublyLinkedList<T> extends SinglyLinkedList<T> {
-static class Entry<E> extends SinglyLinkedList.Entry<E> {
-Entry<E> prev;
-Entry(E x, Entry<E> next, Entry<E> prev) {
-super(x, nxt);
-this.prev = prev;
-}
-}
-
- */
 import java.util.Iterator;
 import java.util.Scanner;
 import java.util.NoSuchElementException;
